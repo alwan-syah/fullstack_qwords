@@ -1,0 +1,17 @@
+<?php include "header.php"; ?>
+<div class="container">
+    <?php
+    $view = isset($_GET['view']) ? $_GET['view'] : null;
+
+    switch ($view) {
+        default:
+            # code...
+            break;
+        case "tambah";
+            //kode
+
+            break;
+    }
+    ?>
+</div>
+<?php include "footer.php"; ?>
